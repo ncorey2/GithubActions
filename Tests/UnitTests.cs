@@ -52,8 +52,8 @@ public class Addition
 	{
 		Assert.AreEqual(36, Program.Multiply("9", "4"));
 		Assert.AreEqual(22, Program.Multiply("11", "2"));
-		//Intentionally incorrect test case
-		Assert.AreEqual(45001, Program.Multiply("150", "300"));
+		//Fixed test case so it is correct now
+		Assert.AreEqual(45000, Program.Multiply("150", "300"));
 	}
 	[TestMethod]
 	public void Multiply_Invalid_COREY()
