@@ -29,8 +29,8 @@ public class Addition
 	[TestMethod]
 	public void Subtract_Valid_Patino()
 	{
-		Assert.AreEqual(5, Program.Subtract("9", "4");
-		Assert.AreEqual(9, Program.Subtract("11", "2");
-		Assert.AreEqual(12, Program.Subtract("15", "3");
+		Assert.AreEqual(5, Program.Subtract("9", "4"));
+		Assert.AreEqual(9, Program.Subtract("11", "2"));
+		Assert.AreEqual(12, Program.Subtract("15", "3"));
 	}
 }
